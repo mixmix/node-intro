@@ -1,0 +1,29 @@
+{
+  "name": "node-intro",
+  "version": "1.0.0",
+  "description": "_based on a Twitch stream I'm doing / did_",
+  "main": "1_basic_script.js",
+  "scripts": {
+    "lint": "echo 'checking your code!' && standard",
+    "test": "node 3_testing_with_tape.test.js",
+    "test:pretty": "tape *.test.js | tap-spec"
+  },
+  "dependencies": {
+    "lodash": "^4.17.4",
+    "standard": "^10.0.3"
+  },
+  "devDependencies": {
+    "tape": "^4.8.0",
+    "tap-spec": "^4.1.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mixmix/node-intro.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mixmix/node-intro/issues"
+  },
+  "homepage": "https://github.com/mixmix/node-intro#readme"
+}
